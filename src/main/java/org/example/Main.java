@@ -16,6 +16,9 @@ public class Main {
         short temperaturaCerveza = leerDato.nextShort();
         System.out.println(" su cerveza es de tipo: "+ tipoCerveza+" con: "+ gradosAlcohol+ " grados de alcohol");
         System.out.println("y se va a producir a: "+ temperaturaCerveza+" grados Celcius");
+        System.out.println("por ultimo agregue el nombre de la cerveza");
+        String nombreCerveza= leerDato.nextLine();
+        System.out.println("el nombre de su cerveza es: "+nombreCerveza);
 
 
 
